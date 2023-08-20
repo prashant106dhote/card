@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: black;
+
+}
+#main{
+    /* overflow: hidden; */
+    width: 80%;
+    height: 100%;
+    /* background: aqua; */
+    position:relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+#card{
+    width: 55%;
+    height: 60%;
+    background-color: white;
+    position:relative;
+    left: 47%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    z-index: 999;
+}
+#black{
+    width: 50%;
+    height: 100%;
+    background-color:rgba(67, 63, 63, 0.737);
+    border: none;
+    
+    position: absolute;
+    box-shadow:10px 0px 40px 10px rgb(34, 32, 30);
+
+}
+#img{
+    width: 30%;
+    height: 30%;
+    /* background-color: blue; */
+}
+#img img{
+    width: 100%;
+    height: 60%;
+    
+}
+#iron{
+    width: 50%;
+    height: 100%;
+    background-color:white;
+    position: absolute;
+    left: 60%;
+    
+}
+#iron img{
+    width:70%;
+}
+#black h1{
+    position: relative;
+    top: -30px;
+    left: 90px;
+
+    color: white;
+    line-height: 30px;
+}
+#black h3{
+    padding-left:90px ;
+    font-size: 25px;
+    color: blue;
+
+}
+#spoti img{
+    width: 25%;
+    position: absolute;
+    top: 80%;
+}
+#text{
+    overflow: hidden;
+    width: 50%;
+    height: 7%;
+    /* background-color: blueviolet; */
+    position:absolute;
+    top: 67%;
+    left: 5%;
+
+    z-index: 9;
+    }
+    
+#text p{
+    font-family:cursive;
+    font-size: 20px;
+    position: absolute;
+    right: 400px;
+    color: white;
+
+}
+#text span{
+    color: rgb(245, 5, 5);
+}
+#iron h5{
+font-size: 20px;
+position: absolute;
+left: 57%;
+bottom: 2%;
+}
+
+#black span{
+    letter-spacing: 6px;
+}
+ .video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.9;
+
+    
+    
+
+}
+.video video{
+    width: 100%;
+    
+    position: absolute;
+}
+.chil{
+    width: 20px;
+    height: 20px;
+    /* background-color: chartreuse; */
+
+}
+.chil img{
+    width: 60px;
+    position: relative;
+    top: -9px;
+    left: 20px;
+    border-radius: 50px;
+}
+.ceptan img{
+    width: 70px;
+    position: absolute;
+    top: 3%;
+    left: 33%;
+}
+#iron h5 span{
+    color: rgb(252, 8, 8);
+}
+
